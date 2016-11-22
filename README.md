@@ -1,0 +1,2 @@
+# ind
+Individual school project
