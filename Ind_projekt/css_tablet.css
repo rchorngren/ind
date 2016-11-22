@@ -1,0 +1,143 @@
+﻿@media screen and (max-width: 768px) {
+    html {
+    background-color: ghostwhite;
+}
+    body {
+        font-size: 1em;
+    }
+
+#wholePage {
+    height: 83%;
+    position: absolute;
+}
+#header, #footer {
+    background: lightslategrey none repeat scroll 0 0;
+    left: 0;
+    padding: 12px;
+    position: fixed;
+    right: 0;
+    z-index:1;
+}
+
+#header {
+    top: 0;
+    height: 3%;
+    border-bottom: 2px solid darkred;
+}
+
+#footer {
+    bottom: 0;
+    height:5%;
+    border-top: 2px solid darkred;
+}
+
+.clear {
+    position:center;
+    clear:both;
+    float: inherit;
+    height:13%;
+}
+#centerDiv {
+    top: 100px;
+    bottom: 100px;
+    overflow: auto;
+    margin-left:5%;
+    height:90%;
+    text-align:center;
+}
+#mainLeft {
+    top: 100px;
+    bottom: 100px;
+    overflow: auto;
+    float: left;
+    width:45%;
+    height:70%;
+    text-align:center;
+    
+}
+#mainRight {
+    top: 100px;
+    bottom: 100px;
+    overflow: auto;
+    float:right;
+    margin-right:5%;
+    width:45%;
+    height:70%;
+    text-align:center;
+}
+ .header-links{
+ 	color:#000000;
+ 	text-decoration: none;
+ 	font-family: "Prata",serif;
+ 	font-size:16px;
+     padding: 1em;
+     margin: -1em;
+ }
+
+nav ul li {
+    background: ghostwhite none repeat scroll 0 0;
+    float: left;
+    list-style: outside none none;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 80px;
+    border-radius: 5px;
+}
+
+li {
+    list-style: none;
+}
+#top_nav{
+	float: right;
+    margin-right: 30px;
+    margin-top: -70px;
+}
+
+#mainPage {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#gradCountdown {
+    border:2px solid darkred;
+    padding: 10px;
+    text-align: center;
+    max-height: 10px;
+    border-radius:5px;
+    float:left;
+    background-color: lightgrey;
+    margin-bottom: 4px;
+}
+
+#liaCountdown {
+    border: 2px solid darkred;
+    padding: 10px;
+    text-align: center;
+    max-height: 10px;
+    border-radius: 5px;
+    float: right;
+    background-color: lightgrey;
+    margin-bottom: 4px;
+}
+
+.fb-like {
+    position: center;
+    margin-left: 40%;
+    text-align: center;
+    width: 80px;
+    border-radius:5px;
+    clear:both;
+}
+
+p {
+    display: none;
+}
+#header a {
+    text-decoration: none;
+}
+h1 {
+    color: darkred;
+    margin-top:2px;
+}
+}

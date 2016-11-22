@@ -1,0 +1,132 @@
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\ApplicationInsights.config
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\roslyn\csc.exe
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\roslyn\System.Collections.Immutable.dll
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\roslyn\vbc.exe
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\roslyn\VBCSCompiler.exe
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\roslyn\VBCSCompiler.exe.config
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Ind_projekt.dll.config
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Ind_projekt.dll
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Ind_projekt.pdb
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Microsoft.AI.Web.dll
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Microsoft.AI.WindowsServer.dll
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Microsoft.ApplicationInsights.dll
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Microsoft.AI.Web.xml
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Microsoft.AI.WindowsServer.xml
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Microsoft.ApplicationInsights.xml
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\obj\Debug\Ind_projekt.csprojResolveAssemblyReference.cache
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\obj\Debug\Ind_projekt.dll
+c:\users\rober\documents\visual studio 2015\Projects\Ind_projekt\Ind_projekt\obj\Debug\Ind_projekt.pdb
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\ApplicationInsights.config
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\roslyn\csc.exe
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\roslyn\vbc.exe
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Ind_projekt.dll.config
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Ind_projekt.dll
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Ind_projekt.pdb
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Microsoft.AI.Web.dll
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Microsoft.AI.Web.xml
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\obj\Debug\Ind_projekt.csprojResolveAssemblyReference.cache
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\obj\Debug\Ind_projekt.dll
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\obj\Debug\Ind_projekt.pdb
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rober\Dropbox\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\ApplicationInsights.config
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\csc.exe
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\vbc.exe
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Ind_projekt.dll.config
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Ind_projekt.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Ind_projekt.pdb
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.Web.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.Web.xml
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\obj\Debug\Ind_projekt.csprojResolveAssemblyReference.cache
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\obj\Debug\Ind_projekt.dll
+C:\Users\Rober\Dropbox\KYH\Ind_projekt\Ind_projekt\obj\Debug\Ind_projekt.pdb
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\ApplicationInsights.config
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\csc.exe
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\System.Collections.Immutable.dll
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\System.Reflection.Metadata.dll
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\vbc.exe
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\VBCSCompiler.exe
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\roslyn\VBCSCompiler.exe.config
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Ind_projekt.dll.config
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Ind_projekt.dll
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Ind_projekt.pdb
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.DependencyCollector.dll
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.Web.dll
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.WindowsServer.dll
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.ApplicationInsights.dll
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.DependencyCollector.xml
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.Web.xml
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.AI.WindowsServer.xml
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.ApplicationInsights.xml
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\obj\Debug\Ind_projekt.csprojResolveAssemblyReference.cache
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\obj\Debug\Ind_projekt.dll
+D:\Dropbox\KYH\Ind_projekt\Ind_projekt\obj\Debug\Ind_projekt.pdb
