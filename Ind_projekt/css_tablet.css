@@ -130,9 +130,6 @@ li {
     clear:both;
 }
 
-p {
-    display: none;
-}
 #header a {
     text-decoration: none;
 }
@@ -140,4 +137,19 @@ h1 {
     color: darkred;
     margin-top:2px;
 }
+#cvJobs {
+    margin-bottom: 50px;
+}
+/**************
+Expander
+**************/
+.job {
+    border: 2px solid grey;
+}
+.details {
+    display: none;
+}
+/**************
+End of Expander
+**************/
 }

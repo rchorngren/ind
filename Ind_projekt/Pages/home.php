@@ -9,6 +9,9 @@
     Jag hoppas därför att ingen tror att jag tycker "designen" på den här sidan är på något vis okej för att verkligen representera mig.<br />
     Men alltid kul att veta att det finns mycket kvar att lära :)
 </div>
+<div id=contactMe>
+	
+</div>
 
 <div id="gradCountdown"></div>
 <div id="liaCountdown"></div>

@@ -2,6 +2,7 @@
     html {
         background-color: ghostwhite;
     }
+
     #wholePage {
         height: 95%;
         position: absolute;
@@ -40,8 +41,8 @@
         overflow: auto;
         height: 89%;
         text-align: center;
-        
     }
+
     .centerCVDiv {
         top: 100px;
         bottom: 100px;
@@ -131,16 +132,11 @@
     }
 
     .fb-like {
-        
         margin-left: 50%;
         text-align: center;
         width: 80px;
         border-radius: 5px;
         clear: both;
-    }
-
-    p {
-        display: none;
     }
 
     #header a {
@@ -151,3 +147,17 @@
         color: darkred;
         margin-top: 2px;
     }
+
+/**************
+Expander
+**************/
+.job {
+    border: 2px solid grey;
+}
+.details {
+    display: none;
+}
+/**************
+End of Expander
+**************/
+}

@@ -8,7 +8,12 @@
     <meta name="author" content="Robert Horngren" />
     <link rel="stylesheet" type="text/css" href="css.css">
     <link rel="stylesheet" type="text/css" href="css_tablet.css">
-    <link rel="stylesheet" type="text/css" href="css_hr.css">   
+    <link rel="stylesheet" type="text/css" href="css_hr.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css"> 
+    <script type="text/javascript" src="js/jquery.plugin.js"></script> 
+    <script type="text/javascript" src="js/jquery.countdown.js"></script>
 </head>
 <body>
 

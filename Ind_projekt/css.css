@@ -3,9 +3,11 @@
         background-color: ghostwhite;
     }
     #wholePage {
-        height: 95%;
+        height: 94%;
         position: absolute;
         margin-right: 7px;
+        margin-top: 40px;
+        width:99%;
     }
 
     #header, #footer {
@@ -28,11 +30,7 @@
         border-top: 2px solid darkred;
     }
 
-    .clear {
-        position: center;
-        clear: both;
-        height: 45px;
-    }
+
 
     #centerDiv {
         top: 100px;
@@ -135,11 +133,6 @@
         border-radius: 5px;
         clear: both;
     }
-
-    p {
-        display: none;
-    }
-
     #header a {
         text-decoration: none;
     }
@@ -148,4 +141,25 @@
         color: darkred;
         margin-top: 2px;
     }
+    #cvJobs {
+        margin-bottom: 50px;
+    }
+}
+/**************
+Expander
+**************/
+.job {
+    border: 2px solid grey;
+    text-align: center;
+    width: 95%;
+}
+.details {
+    display: none;
+    text-align:center;
+    background-color: dimgrey;
+    width: 95%;
+}
+/**************
+End of Expander
+**************/
 }

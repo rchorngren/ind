@@ -1,0 +1,20 @@
+.selection,.toggle
+{
+    width: 400px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    marign-lift: auto;
+    padding: 5px;
+    background: white;
+    border: solid 2px gray;
+}
+.toggle
+{
+    text-align: center;
+}
+.selection
+{
+    display: none;
+    text-align: left;
+}
