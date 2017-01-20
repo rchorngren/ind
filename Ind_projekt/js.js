@@ -8,21 +8,10 @@
 }(document, 'script', 'facebook-jssdk'));
 //End of Facebook Like-button
 
-//Collapsable text
-//function collapse(a) {
-//    var e = document.getElementById(a);;
-//    if (e.style.display === "block") {
-//        e.style.display = "none";
-//    }
-//    else {
-//        e.style.display = "block";
-//    }
-//    return true;
-//}
-//End of collapse
-
 $(document).ready(function () {
     $(".job").on("click", function () {
         $(this).next(".details").slideToggle();
     });
 });
+
+//Keypress stuff

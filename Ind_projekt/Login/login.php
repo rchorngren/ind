@@ -7,13 +7,18 @@ $error = "Användarnamnet eller lösenordet är felaktigt";
 }
 else
 {
+// SQL query to fetch information of registerd users and finds user match.
+$connection = mysqli_connect("localhost", "root", "", "release2");
+//$connection = mysqli_connect('gg-219291.mysql.binero.se', '219291_ow20538', 'Sommar16', '219291-gg');
+
 // Define $username and $password
 $username=$_POST['username'];
+$username= mysqli_real_escape_string($connection, $_POST['username']);
 $password=$_POST['password'];
-// Establishing Connection with Server by passing server_name, user_id and password as a parameter
-//$connection = mysqli_connect('gg-219291.mysql.binero.se', '219291_ow20538', 'Sommar16', '219291-gg');
-$connection = mysqli_connect("localhost", "root", "", "release2");
-// SQL query to fetch information of registerd users and finds user match.
+$password= mysqli_real_escape_string($connection, $_POST['password']);
+
+
+
 $query = "select * from login where password='$password' AND username='$username'";
 $rows = mysqli_query($connection, $query);
 if ($rows == 1) {

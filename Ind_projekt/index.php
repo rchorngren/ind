@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css_hr.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css"> 
+    <!--<link rel="stylesheet" type="text/css" href="css/jquery.countdown.css"> -->
     <script type="text/javascript" src="js/jquery.plugin.js"></script> 
     <script type="text/javascript" src="js/jquery.countdown.js"></script>
 </head>
@@ -26,6 +26,7 @@
                         <li><a class="header-links" href="index.php?page=home/">Hem</a></li>
                         <li><a class="header-links" href="index.php?page=cv">CV</a></li>
                         <li><a class="header-links" href="index.php?page=portfolio">Portfolio</a></li>
+                        <li><a class="header-links" href="index.php?page=stuff">Stuff</a></li>
                     </ul>
                 </nav>
             </div>
@@ -49,19 +50,28 @@
             	case "portfolio";
             		include ("Pages/portfolio.php");
             	break;
+                case "stuff";
+                    include ("Pages/stuff.php");
+                break;
             	default:
             		include ("Pages/home.php");
             	break;
 	            }
 
             ?>
-
-
+            <div id=hangMan style="display: none">HangMan game here</div>
             <div id="footer">
                 <div class="fb-like" data-href="http://rchorngren.se" data-width="100px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
             </div>
         </div>
+        <script>
+            $("body").keypress(function (e) {
+                if (e.keyCode == 0 || e.keyCode == 32) {
+                    $("#hangMan").show();
+                    }
+                });
+        </script>
     <script src="js.js"></script>
-    <script src="Timers.js"></script>
+    <!--<script src="Timers.js"></script>-->
 </body>
 </html>
