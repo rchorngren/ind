@@ -32,7 +32,7 @@
             </div>
 
             <div class="clear"></div>
-            
+	            <div style="display: none" class="secret">Hangman here!</div>
             <?php
             $currentPage = '';
             if (isset($_GET['page'])){
@@ -59,18 +59,15 @@
 	            }
 
             ?>
+            <br><br><br>
+            <div style="display: none" class="secret">Hangman here!</div>
+            <div style="display: none" class="admin"><a href="Login/index.php">Admin</a></div>
             <div id=hangMan style="display: none">HangMan game here</div>
             <div id="footer">
                 <div class="fb-like" data-href="http://rchorngren.se" data-width="100px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
             </div>
         </div>
-        <script>
-            $("body").keypress(function (e) {
-                if (e.keyCode == 0 || e.keyCode == 32) {
-                    $("#hangMan").show();
-                    }
-                });
-        </script>
+
     <script src="js.js"></script>
     <!--<script src="Timers.js"></script>-->
 </body>

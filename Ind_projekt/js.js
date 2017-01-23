@@ -14,4 +14,23 @@ $(document).ready(function () {
     });
 });
 
-//Keypress stuff
+//Keypress - to access easter egg
+$(document).keypress((function (e) {
+    var pass = "Hang";    var typed = "";
+    return function (e) {
+        typed += String.fromCharCode(e.which);
+        console.log(typed);        if (typed === pass) {
+            $('.secret').show();
+        }
+    };
+})());
+//End of Keypress
+$(document).keypress((function (e) {
+    var pass = "admin";    var typed = "";
+    return function (e) {
+        typed += String.fromCharCode(e.which);
+        console.log(typed);        if (typed === pass) {
+            $('.admin').show();
+        }
+    };
+})());
