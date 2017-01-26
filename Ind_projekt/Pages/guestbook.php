@@ -14,6 +14,7 @@ while($row = mysqli_fetch_array($result))
 <h3><?php echo $row['name']; ?></h3>
 <p><?php echo $row['email']; ?><p>
 <p><?php echo $row['message']; ?></p>
+<!-- add underline thingie here -->
 <?php }
 mysqli_close($con);
 ?>

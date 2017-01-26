@@ -144,6 +144,14 @@
     #cvJobs {
         margin-bottom: 50px;
     }
+    /*.jobEdit {
+        border-style: solid;
+        border-width: 2px;
+    }*/
+    textarea {
+        width: 400px;
+        height: 150px;
+    }
 }
 /**************
 Expander

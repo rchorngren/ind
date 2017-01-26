@@ -60,9 +60,7 @@
 
             ?>
             <br><br><br>
-            <div style="display: none" class="secret">Hangman here!</div>
             <div style="display: none" class="admin"><a href="Login/index.php">Admin</a></div>
-            <div id=hangMan style="display: none">HangMan game here</div>
             <div id="footer">
                 <div class="fb-like" data-href="http://rchorngren.se" data-width="100px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
             </div>

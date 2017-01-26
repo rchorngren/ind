@@ -1,6 +1,15 @@
 <?php
 include('session.php');
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+	 <link rel="stylesheet" type="text/css" href="../css.css">
+</head>
+<body>
+
 
 <?php	
 	//$db = mysqli_connect('gg-219291.mysql.binero.se', '219291_ow20538', 'Sommar16', '219291-gg');
@@ -77,7 +86,7 @@ include('session.php');
 					</p>
 							</div>
 							<p class='field-block-btn field-block-full'>
-								<input name = 'boka' id='form-btn' class='form-btn' type='submit' value='Boka' />
+								<input name = 'boka' id='form-btn' class='form-btn' type='submit' value='Skapa' />
 							</p>
 						</form>
 					</div>
@@ -89,21 +98,41 @@ $query = "SELECT * FROM jobs ORDER BY id ASC";
 $result = mysqli_query($db, $query);
 
 
+
 if ($result->num_rows > 0) {
      // output data of each row
     while ($row = $result->fetch_assoc()) {
         echo
-        "<div class='job'><p>". $row["jobName"]. "</p></div>".
-        "<div class='details'>".
-        " </br><b>".$row["timePeriod"]."</b>".
-        " </br>".$row["jobDetails"].
-        " </div>";
+        "<form action='' method='post'>".
+        "<div class='jobEdit'>
+        	<div class='job'>
+        		<textarea>
+        			<p>". $row["jobName"]. "</p>
+        		</textarea>".
+        		"<textarea>
+        			</br><b>".$row["timePeriod"]."</b>
+        		</textarea></br>".
+        		"<textarea>"
+        			.$row["jobDetails"].
+        		"</textarea>
+        	</div>
+        </div>".
+        "<input type='hidden' name='id' value='{$row['id']}'>
+		<input type='submit' value='Spara ändringar' name='savepage'>".
+        "</form>";
 
     }
 } else {
      echo "0 results";
 }
 
+
+
+
+
 ?>
 
 <script src="js.js"></script>
+
+</body>
+</html>
