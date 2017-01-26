@@ -16,13 +16,12 @@
     <script type="text/javascript" src="js/jquery.countdown.js"></script>
 </head>
 <body>
-
-
         <div id="wholePage">
             <div id="header">
                 <a href="mailto:info@rchorngren.se"><h1>Robert Horngren</h1></a>
                 <nav id="top_nav">
                     <ul>
+                        <li style="display: none"  class="admin"><a class="header-links" href="Login/">Admin</a></li>
                         <li><a class="header-links" href="index.php?page=home/">Hem</a></li>
                         <li><a class="header-links" href="index.php?page=cv">CV</a></li>
                         <li><a class="header-links" href="index.php?page=portfolio">Portfolio</a></li>
@@ -31,15 +30,15 @@
                 </nav>
             </div>
 
-            <div class="clear"></div>
-	            <div style="display: none" class="secret">Hangman here!</div>
+            <!--<div class="clear"></div>-->
+            <div style="display: none" class="secret">Hangman here!</div>
+            
             <?php
             $currentPage = '';
             if (isset($_GET['page'])){
 				$currentPage = $_GET["page"];
             }
             
-
             switch($currentPage) {
             	case "home";
             		include ("Pages/home.php");
@@ -59,8 +58,8 @@
 	            }
 
             ?>
+
             <br><br><br>
-            <div style="display: none" class="admin"><a href="Login/index.php">Admin</a></div>
             <div id="footer">
                 <div class="fb-like" data-href="http://rchorngren.se" data-width="100px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
             </div>

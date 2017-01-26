@@ -3,6 +3,7 @@
 $db = mysqli_connect("localhost", "root", "", "release2");
 mysqli_query($db, "SET NAMES utf8");
 ?>
+
 <div id="cvJobs">
 <?php 
 
@@ -19,10 +20,9 @@ if ($result->num_rows > 0) {
         " </br><b>".$row["timePeriod"]."</b>".
         " </br>".$row["jobDetails"].
         " </br></br></div>";
-
     }
 } else {
-     echo "0 results";
+     echo "0 träffar";
 }
 
 ?>

@@ -1,4 +1,28 @@
+<?php
+//$db = mysqli_connect('gg-219291.mysql.binero.se', '219291_ow20538', 'Sommar16', '219291-gg');
+$db = mysqli_connect("localhost", "root", "", "release2");
+mysqli_query($db, "SET NAMES utf8");
+?>
+
+
 <div id="centerDiv">
+
+<?php
+if (mysqli_connect_errno($db)) {
+echo "Kunde inte ansluta till MySQL: " . mysqli_connect_error();
+}
+$result = mysqli_query($db,"SELECT name,email,message FROM guestbook");
+
+while($row = mysqli_fetch_array($result)) { ?>
+    <h3>
+    <?php
+        echo $row['name']; 
+    ?>    
+    </h3>
+    <?php }
+    mysqli_close($db);
+?>
+
     Välkommen till mitt första indivuiduella arbete på min väg till att bli fullfjädrad FrontEnd utvecklare. <br />
     Tanken är att det ska komma lite mer information här som beskriver vem jag är, men först en liten reservation;<br /><br />
     Då ett av kriterierna i projektet är att denna sida ska ligga live vid inlämningen av den så finns en viss risk
@@ -9,9 +33,7 @@
     Jag hoppas därför att ingen tror att jag tycker "designen" på den här sidan är på något vis okej för att verkligen representera mig.<br />
     Men alltid kul att veta att det finns mycket kvar att lära :)
 </div>
-<div id=contactMe>
-	
-</div>
 
+<div id="contactMe"></div>
 <div id="gradCountdown"></div>
 <div id="liaCountdown"></div>

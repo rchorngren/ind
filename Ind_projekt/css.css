@@ -3,11 +3,13 @@
         background-color: ghostwhite;
     }
     #wholePage {
-        height: 94%;
-        position: absolute;
-        margin-right: 7px;
+        /*height: 94%;*/
+        /*position: absolute;
+        margin-right: 7px;*/
+        /*width:99%;*/
+
+        margin: auto;
         margin-top: 40px;
-        width:99%;
     }
 
     #header, #footer {
@@ -144,14 +146,20 @@
     #cvJobs {
         margin-bottom: 50px;
     }
+    #guestBook {
+        margin: auto;
+        padding: 15px;
+        width: 550px;
+    }
+    #videoDiv {
+        margin: auto;
+        padding: 15px;
+        width: 550px;
+    }
     /*.jobEdit {
         border-style: solid;
         border-width: 2px;
     }*/
-    textarea {
-        width: 400px;
-        height: 150px;
-    }
 }
 /**************
 Expander
@@ -170,4 +178,14 @@ Expander
 /**************
 End of Expander
 **************/
-}
+
+/**************
+Admin related
+**************/
+    textarea {
+        width: 400px;
+        height: 150px;
+    }
+/**************
+End of admin
+**************/
