@@ -2,7 +2,7 @@
 include('login.php'); // Includes Login Script
 
 if(isset($_SESSION['login_user'])){
-header("location: loggedin.php");
+header("location: Login/loggedin.php");
 }
 ?>
 <!DOCTYPE html>

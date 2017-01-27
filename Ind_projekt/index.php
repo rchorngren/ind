@@ -30,9 +30,17 @@
                 </nav>
             </div>
 
-            <!--<div class="clear"></div>-->
-            <div style="display: none" class="secret">Hangman here!</div>
-            
+            <!--Hangman-->
+            <div style="display: none" class="secret">
+                <div id="hangman">
+                    <img id="pic" src='./hangman/img/hangman.jpg' />
+                    <div id="visibleWord"></div>
+                    <div id="buttons"></div>
+                    <div id="end"></div>
+                </div>
+            </div>
+
+
             <?php
             $currentPage = '';
             if (isset($_GET['page'])){
@@ -59,6 +67,9 @@
 
             ?>
 
+
+
+
             <br><br><br>
             <div id="footer">
                 <div class="fb-like" data-href="http://rchorngren.se" data-width="100px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
@@ -66,6 +77,7 @@
         </div>
 
     <script src="js.js"></script>
+    <script src="./hangman/hangman.js"></script>
     <!--<script src="Timers.js"></script>-->
 </body>
 </html>
