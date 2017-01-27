@@ -78,6 +78,6 @@
 
     <script src="js.js"></script>
     <script src="./hangman/hangman.js"></script>
-    <!--<script src="Timers.js"></script>-->
+    <script src="Timers.js"></script>
 </body>
 </html>

@@ -1,57 +1,50 @@
-//var gradYear = new Date(); 
-//gradYear = new Date(gradYear.getFullYear() + 1, 1 - 1, 1); 
-//$('#gradCountdown').countdown({ until: gradYear });
+﻿//Timer
+function getTimeRemaining(endtime) {
+    var t = Date.parse(endtime) - Date.parse(new Date()); //Date.parse is a native command to convert the date in deadline to milliseconds. Total number of milliseconds goes into t
+    var seconds = Math.floor((t / 1000) % 60); //Converts the number of milliseconds into seconds and then uses modus to only display the restvalue (in this case the seconds remaining once everything has been divided by 60, hence only the last 60c(59) seconds are displayed)
+    var minutes = Math.floor((t / 1000 / 60) % 60); //First converts the milliseconds to seconds and then again to minutes. Shows the last 60 minutes in order to avoid showing all minutes remaining
+    var hours = Math.floor((t / (1000 * 60 * 60)) % 24); //Converts milliseconds to seconds, then to minutes and finally to hours
+    var days = Math.floor(t / (1000 * 60 * 60 * 24)); //Converts milliseconds to seconds, then to minutes, then straight into number of days remaining
+    return {
+        "total": t,
+        "days": days,
+        "hours": hours,
+        "minutes": minutes, //Minutes and seconds are not used, but I still want them, just in case :)
+        "seconds": seconds
+    };
+}
+//End of Timer
 
- 
-//$('#removeGradCountdown').click(function() { 
-//    var destroy = $(this).text() === 'Remove'; 
-//    $(this).text(destroy ? 'Re-attach' : 'Remove'); 
-//    $('#gradCountdown').countdown(destroy ? 'destroy' : { until: gradYear });
-//});
 
-//var liaYear = new Date();
-//liaYear = new Date(liaYear.getFullYear() + 1, 1 - 1, 1);
-//$('#liaCountdown').countdown({ until: liaYear });
+//GraduationTimer
+var deadline = "2018-05-31"; //Insert date for when graduating
 
-//$('#removeLiaCountdown').click(function () {
-//    var destroy = $(this).text() === 'Remove';
-//    $(this).text(destroy ? 'Re-attach' : 'Remove');
-//    $('#liaCountdown').countdown(destroy ? 'destroy' : { until: liaYear });
-//});
-
-$(function () {
-
-    var note = $('#gradCountdown'),
-        ts = new Date(2016, 4, 30),
-        newYear = true;
-
-    if ((new Date()) > ts) {
-        // The new year is here! Count towards something else.
-        // Notice the *1000 at the end - time must be in milliseconds
-        ts = (new Date()).getTime() + 10 * 24 * 60 * 60 * 1000;
-        newYear = false;
-    }
-
-    $('#countdown').countdown({
-        timestamp: ts,
-        callback: function (days, hours, minutes, seconds) {
-
-            var message = "";
-
-            message += days + " day" + (days == 1 ? '' : 's') + ", ";
-            message += hours + " hour" + (hours == 1 ? '' : 's') + ", ";
-            message += minutes + " minute" + (minutes == 1 ? '' : 's') + " and ";
-            message += seconds + " second" + (seconds == 1 ? '' : 's') + " <br />";
-
-            if (newYear) {
-                message += "left until the new year!";
-            }
-            else {
-                message += "left to 10 days from now!";
-            }
-
-            note.html(message);
+function initializeGradClock(id, endtime) {
+    var clock = document.getElementById(id);
+    var timeinterval = setInterval(function () {
+        var t = getTimeRemaining(endtime);
+        clock.innerHTML = "Tid till examination - " + t.days + " dagar och " + t.hours + " timmar";
+        if (t.total <= 0) { //If the time remaining reaches zero, the timer will stop
+            clearInterval(timeinterval);
         }
-    });
+    }, 1000);
+}
+initializeGradClock("gradCountdown", deadline);
+//End of GraduationTimer
 
-});
+
+//LIA-Timer
+var liaDeadline = "2018-01-15"; //Insert date for when LIA starts
+
+function initializeLiaClock(id, endtime) {
+    var clock = document.getElementById(id);
+    var timeinterval = setInterval(function () {
+        var t = getTimeRemaining(endtime);
+        clock.innerHTML = "Tid till LIA - " + t.days + " dagar och " + t.hours + " timmar";
+        if (t.total <= 0) {
+            clearInterval(timeinterval);
+        }
+    }, 1000);
+}
+initializeLiaClock("liaCountdown", liaDeadline);
+//End of LIA-timer

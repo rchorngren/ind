@@ -6,7 +6,7 @@ $dbname="release2"; //SQL Database Name
 $con=mysqli_connect($host,$user,$pass,$dbname);
 if (mysqli_connect_errno($con))
 {
-echo "Failed to connect to MySQL: " . mysqli_connect_error();
+echo "Anslutningen till mySQL misslyckades: " . mysqli_connect_error();
 }
 $result = mysqli_query($con,"SELECT name,message FROM guestbook");
 while($row = mysqli_fetch_array($result))

@@ -1,9 +1,10 @@
 <div id="guestBook">
 	<form action="Pages/addcomment.php" method="post" name="guest">
-	Namn: <input type="text" name="name" /><br>
-	Email: <input type="text" name="email" /><br>
-	Meddelande: <textarea cols="50" name="message" rows="10"> </textarea></form>
- 	<input type="submit" value="Skicka meddelande" /></form>
+		Namn: <input type="text" name="name" /><br>
+		Email: <input type="text" name="email" /><br>
+		Meddelande: <textarea cols="50" name="message" rows="10"></textarea>
+ 		<input type="submit" value="Skicka meddelande" />
+ 	</form>
 </div>
 
 <div id=videoDiv>
