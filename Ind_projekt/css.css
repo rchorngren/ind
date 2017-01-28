@@ -91,13 +91,9 @@ li {
     padding: 15px;
     width: 550px;
 }
-#portolioDiv {
-    margin: auto;
+#projects {
+    border: 2px solid red; 
 }
-    /*.jobEdit {
-        border-style: solid;
-        border-width: 2px;
-    }*/
 }
 
 /**************
