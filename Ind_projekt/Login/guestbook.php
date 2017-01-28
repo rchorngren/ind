@@ -12,11 +12,12 @@ if (mysqli_connect_errno($db)) {
 echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
-$result = mysqli_query($db,"SELECT name,email,message FROM guestbook");
+$result = mysqli_query($db,"SELECT name,email,message FROM guestbook ORDER BY id DESC");
 while($row = mysqli_fetch_array($result)) { ?>
 	<h3><?php echo $row['name']; ?></h3>
 	<p><?php echo $row['email']; ?><p>
 	<p><?php echo $row['message']; ?></p>
+	<hr>
 	<?php }
 	mysqli_close($db);
 ?>

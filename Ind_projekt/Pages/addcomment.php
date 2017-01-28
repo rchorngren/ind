@@ -7,13 +7,17 @@ if (mysqli_connect_errno($db)) {
 echo "<h1>Anslutning till MySQL misslyckades: " . mysqli_connect_error() ."</h1>";
 }
 
-$name=$_POST['name'];
-$email=$_POST['email'];
-$message=$_POST['message'];
+$new_name = $_POST['name'];
+$new_name = mysqli_real_escape_string($db, $_POST['name']);
+$new_email = $_POST['email'];
+$new_email = mysqli_real_escape_string($db, $_POST['email']);
+$new_message = $_POST['message'];
+$new_message = mysqli_real_escape_string($db, $_POST['message']);
+
 $sql="INSERT INTO 
 	guestbook(name,email,message) 
 	VALUES
-	('$name','$email','$message')";
+	('$new_name','$new_email','$new_message')";
 		if (!mysqli_query($db,$sql)) {
 			die('Error: ' . mysqli_error($db));
 		} else {

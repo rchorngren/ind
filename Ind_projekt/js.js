@@ -16,7 +16,7 @@ $(document).ready(function () {
 
 //Keypress - to access easter egg
 $(document).keypress((function (e) {
-    var pass = "Hang";    var typed = "";
+    var pass = "idkfa";    var typed = "";
     return function (e) {
         typed += String.fromCharCode(e.which);
         console.log(typed);        if (typed === pass) {

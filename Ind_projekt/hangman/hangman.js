@@ -101,7 +101,7 @@ var Hangman = {
 
     renderWinScreen: function () {
         this.$buttons.css('display', 'none');
-        this.$end.html('Du vann!');
+        this.$end.html('Grattis, du vann!');
     },
 
     renderLoseScreen: function () {
@@ -115,16 +115,7 @@ var Hangman = {
 
     lives: 10,
 
-    words: ['LÅDBIL', 'YXSKAFT', 'LIAN', 'FLAGGSTÅNG', 'BETALTJÄNST', 'WELLPAPP',
-            'LAGERBLAD', 'ÖLMAGE', 'SPENAT', 'ROQUEFORT', 'HÄXBRYGD', 'BANANSKAL',
-            'DJÄVULSKAP', 'BANDIT', 'KANELBULLE', 'VÄDEROMSLAG', 'FALUKORV', 'BOB',
-            'HÖRNSTEN', 'KONSERVBURK', 'OPERATION', 'KLISTER', 'KARTA', 'SNUVA',
-            'XYLOFON', 'ZOOLOGI', 'ÅTERFALL', 'TROLL', 'RELIGION', 'KARATE', 'ÖRN',
-            'FICKA', 'FLÄDER', 'AXELVADD', 'ZLATAN', 'HÄVSTÅNG', 'BENBROTT', 'CYKEL',
-            'STJÄRNA', 'VITLÖK', 'PIZZA', 'PIRATSKÄPP', 'FÅGELHOLK', 'TYSKLAND',
-            'PURJOLÖK', 'GULLÖK', 'SILVERLÖK', 'GURKA', 'SPARRIS', 'KO', 'HÖNA',
-            'KVAST', 'LJUSSTAKE', 'LÖNNDÖRR', 'CANASTA', 'LÖKRING', 'MOZZARELLA',
-            'SHOPPING', 'FANTASI', 'FISKEKROK', 'FISKESPÖ', 'TRAKTOR', 'FLYGPLAN'],
+    words: ['FULKOD'],
 
     chars: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
             'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'Å', 'Ä', 'Ö']
